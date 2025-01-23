@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in JavaScript related to the comparison of NaN (Not a Number) in conditional statements.  The function `foo` is designed to return 0 if the input is null, -1 if it's negative and 1 otherwise. However, NaN is incorrectly evaluated as being greater than 0, leading to unexpected results.  The solution file provides a corrected version.
